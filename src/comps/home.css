@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.strip {
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    height: 250px;
+    background-image: url("IMG/cinema.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 55px red, 0 0 75px red;
+}
+
+.search-bar {
+    margin: 0 auto;
+    width: auto;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.275);
+    position: relative;
+    top: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#search_input {
+    padding: 5px;
+    height: 33px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#search_btn {
+    background-color: black;
+    height: 33px;
+    width: 80px;
+    color: white;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.row {
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    background-color: black;
+    height: 2000px;
+}
+
+#div_item {
+    max-width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    border: 5px black solid;
+}
+
+img {
+    height: 150px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+#div_item .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text-container,
+#info_btn {
+    margin-top: auto;
+}
+
+#info_btn {
+    width: 150px;
+    border-radius: 5px
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.movie_icon {
+    position: absolute;
+    left: 300px;
+    top: 90px;
+    font-size: 5em;
+}
