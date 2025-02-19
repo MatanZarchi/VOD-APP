@@ -6,7 +6,7 @@
 
 <h3 align="center">To see video download this link: </h3>
 
-<h2 align="center">C:\Users\matan\Videos\הקלטות מסך\React VOD APP.mp4.mp4</h2>
+<h2 align="center">C:\Users\matan\Videos\הקלטות מסך\React VOD APP.mp4</h2>
 
 
 
